@@ -1,0 +1,45 @@
+.box {
+  display: inline-block;
+  border: 2px solid red;
+  width: 250px;
+  height: 250px;
+  margin: 3px;
+}
+section {
+  border: 2px solid springgreen;
+  background-color: khaki;
+  height: 3444px;
+  /* margin-top: 100px; */
+  margin-bottom: 100px;
+}
+#box1 {
+  position: static;
+}
+#box2 {
+  /* relative means relative to it's normal postition.  */
+  position: relative;
+  top: 22px;
+  /* bottom: ; */
+  left: 30px;
+  /* right: ; */
+}
+#box3 {
+  /* absolute means it moves from the position of parent container.  */
+  position: absolute;
+  top: 22px;
+  /* bottom: ; */
+  left: 30px;
+  /* right: ; */
+}
+#box4 {
+  position: fixed;
+  right: 4px;
+  bottom: 2px;
+}
+#box5 {
+  position: sticky;
+  top: 0;
+  right: 0;
+  height: 20px;
+  margin-top: 100px;
+}
